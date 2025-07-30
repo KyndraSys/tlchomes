@@ -1,5 +1,1 @@
-node_modules/
-dist/
-*.log
-*.bak
-.DS_Store".tmp.driveupload/" 
+.tmp.driveupload/ 
