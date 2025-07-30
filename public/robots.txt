@@ -1,0 +1,4 @@
+ 
+User-agent: *
+Allow: /
+Sitemap: https://tlchomes.co.ke/sitemap.xml

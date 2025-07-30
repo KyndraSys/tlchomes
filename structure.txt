@@ -1,0 +1,92 @@
+tlchomes-website/
+├── public/
+│   ├── favicon.ico
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── logos/
+│   │   │   │   ├── logo.png
+│   │   │   │   └── logo-dark.png
+│   │   │   ├── backgrounds/
+│   │   │   │   ├── hero-bg.jpg
+│   │   │   │   └── texture-bg.jpg
+│   │   │   ├── ventures/
+│   │   │   │   ├── venture1.jpg
+│   │   │   │   ├── venture2.jpg
+│   │   │   │   ├── venture3.jpg
+│   │   │   │   ├── venture4.jpg
+│   │   │   │   ├── venture5.jpg
+│   │   │   │   └── venture6.jpg
+│   │   ├── fonts/
+│   │   │   ├── garamond.ttf
+│   │   │   └── opensans-regular.ttf
+│   │   └── documents/
+│   │       ├── investor-presentation.pdf
+│   │       ├── company-brochure.pdf
+│   │       └── smart-homes-guide.pdf
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── Navigation.jsx
+│   │   ├── ui/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Card.jsx
+│   │   │   └── Slider.jsx
+│   │   ├── modals/
+│   │   │   └── CookieConsent.jsx
+│   │   └── ErrorBoundary.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Services.jsx
+│   │   ├── ServiceDetail.jsx
+│   │   ├── Innovation.jsx
+│   │   ├── Impact.jsx
+│   │   ├── Investors.jsx
+│   │   ├── Careers.jsx
+│   │   ├── Contact.jsx
+│   │   └── Resources.jsx
+│   ├── data/
+│   │   ├── services.json
+│   │   └── projects.json
+│   ├── utils/
+│   │   ├── seo.js
+│   │   └── constants.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+└── README.md
+
+
+
+
+Revised Sitemap
+The sitemap is designed for user navigation and search engine crawling, with SEO-optimized URLs and meta descriptions:
+
+Home: /
+Meta: "Discover TLC Homes Services Kenya - Innovate, Build, Thrive with Sustainable Living Solutions."
+About Us: /about
+Meta: "Learn about TLC Homes Services Kenya - Our Mission, Vision, and Commitment to Transforming Lives."
+Services: /services
+Meta: "Explore TLC Homes Services - Real Estate, Agriculture, and Hospitality Solutions in Kenya."
+Service Detail: /services/:venture (e.g., /services/realtors)
+Meta: "Details on [Venture Name] by TLC Homes - Innovative Solutions for a Better Future."
+Innovation: /innovation
+Meta: "TLC Homes Innovation - Smart Homes and Sustainable Tech Leading Kenya’s Future."
+Impact: /impact
+Meta: "See TLC Homes’ Impact - Empowering Communities and Driving Sustainability in Kenya."
+Investors: /investors
+Meta: "Invest with TLC Homes - Lucrative Opportunities in Kenya’s Growing Markets."
+Careers: /careers
+Meta: "Join TLC Homes Careers - Build a Future with Us in Kenya’s Leading Firm."
+Contact: /contact
+Meta: "Contact TLC Homes Services Kenya - Get Support and Partnership Opportunities."
+Resources: /resources
+Meta: "Download TLC Homes Resources - Guides and Presentations for Investors and Clients."

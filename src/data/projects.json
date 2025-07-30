@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Heavens Delight Apartments",
+    "image": "/src/assets/images/ventures/venture1.jpg",
+    "link": "/services/realtors"
+  },
+  {
+    "title": "TLC Farmers Hub",
+    "image": "/src/assets/images/ventures/venture2.jpg",
+    "link": "/services/farmers"
+  },
+  {
+    "title": "Serenity Resort",
+    "image": "/src/assets/images/ventures/venture3.jpg",
+    "link": "/services/hotel"
+  }
+]

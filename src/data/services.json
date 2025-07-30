@@ -1,0 +1,20 @@
+[
+  {
+    "id": "realtors",
+    "title": "TLC Homes Realtors & Construction",
+    "description": "Delivering premium residential and commercial properties with smart home integration and eco-friendly designs.",
+    "details": ["Luxury apartment complexes", "Sustainable construction practices", "Smart home technology integration"]
+  },
+  {
+    "id": "farmers",
+    "title": "TLC Farmers Market",
+    "description": "Empowering Kenyan farmers with modern market access and sustainable agricultural solutions.",
+    "details": ["Support for over 500 farmers", "Organic farming certification", "Advanced irrigation systems"]
+  },
+  {
+    "id": "hotel",
+    "title": "TLC Hotel & Stay",
+    "description": "Offering world-class hospitality with a focus on local culture and eco-tourism.",
+    "details": ["Luxury suites and villas", "Eco-tourism experiences", "State-of-the-art conference facilities"]
+  }
+]

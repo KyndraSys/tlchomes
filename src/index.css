@@ -1,0 +1,86 @@
+/* Global Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 0.75rem;
+}
+
+h1 { font-size: 1.875rem; } /* 30px */
+h2 { font-size: 1.5rem; }   /* 24px */
+h3 { font-size: 1.25rem; }  /* 20px */
+h4 { font-size: 1.125rem; } /* 18px */
+h5 { font-size: 1rem; }     /* 16px */
+h6 { font-size: 0.875rem; } /* 14px */
+
+@layer components {
+  .hero-section {
+    @apply relative h-screen overflow-hidden;
+  }
+
+  .stats-section {
+    @apply py-12 bg-gradient-to-r from-green to-dark-green;
+  }
+
+  .ventures-section {
+    @apply py-16 bg-white;
+  }
+
+  .venture-card {
+    @apply h-64 min-h-[16rem] flex flex-col justify-between rounded-lg shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  .about-section {
+    @apply py-16 bg-gray-50;
+  }
+
+  .investment-section {
+    @apply py-16 bg-gradient-to-br from-green to-brown;
+  }
+
+  .cta-section {
+    @apply py-12 bg-white;
+  }
+
+  .card {
+    @apply bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300;
+  }
+
+  .modal {
+    @apply bg-white rounded-lg p-6 shadow-xl max-w-md mx-auto;
+  }
+
+  .profile-image {
+    @apply rounded-full overflow-hidden;
+  }
+}
+
+.animate-slide {
+  animation: slide 15s infinite linear;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+
+
